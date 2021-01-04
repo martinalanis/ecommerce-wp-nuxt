@@ -1,0 +1,34 @@
+{
+  "name": "ecommerceweb",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.0.0",
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "nuxt": "^2.14.6",
+    "oauth-1.0a": "^2.2.6",
+    "query-string": "^6.13.8",
+    "tls": "0.0.1",
+    "woocommerce-api": "^1.5.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-nuxt": "^1.0.0"
+  }
+}
