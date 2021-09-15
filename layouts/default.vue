@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
       :clipped="clipped"
@@ -23,8 +23,8 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
-    <v-app-bar
+    </v-navigation-drawer> -->
+    <!-- <v-app-bar
       :clipped-left="clipped"
       fixed
       app
@@ -56,7 +56,7 @@
       >
         <v-icon>mdi-menu</v-icon>
       </v-btn>
-    </v-app-bar>
+    </v-app-bar> -->
     <v-main>
       <v-container>
         <nuxt />

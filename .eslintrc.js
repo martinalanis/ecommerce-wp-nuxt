@@ -14,5 +14,21 @@ module.exports = {
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'no-console': 'off',
+    'vue/html-self-closing': ["error", {
+      "html": {
+        "void": "any",
+        "normal": "any",
+        "component": "any"
+      },
+      "svg": "always",
+      "math": "always"
+    }],
+    'vue/max-attributes-per-line': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
+    'vue/multiline-html-element-content-newline': 'off',
+    'vue/html-closing-bracket-spacing': 'off',
+    'vue/no-v-html': 'off'
+  }
 }
